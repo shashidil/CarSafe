@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/__home"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/vehicalReg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:padding="5dp"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textColor="#FF5800"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnowner"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#FF5800"
+        android:text="owning vehicle"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnmanage"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="55dp"
+        android:backgroundTint="#FF5800"
+        android:text="manage vehical"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnskill"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="55dp"
+        android:backgroundTint="#FF5800"
+        android:text="driving Tips"
+        android:textStyle="bold" />
+
+</LinearLayout>

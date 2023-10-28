@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_223"
+    android:orientation="vertical"
+    tools:context=".Vehical.singlerow">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehical Name: "
+        android:textSize="10pt"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtVehiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Vehical Name"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehical Number: "
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVehiNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Vehical Number"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txtmanu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manufacture: "
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/txtVehiManu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Manufacture"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manufacture: "
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVehiModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Model"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtfuel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuel type : "
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVehiFuel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="Fuel Type"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

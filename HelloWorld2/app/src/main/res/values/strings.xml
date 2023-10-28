@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="button">Button</string>
+    <string name="owning_vehical">Owning Vehical</string>
+    <string name="manage_vehical">Manage Vehical</string>
+    <string name="driving_skill">Driving Skill</string>
+    <string name="repair">Repair</string>
+    <string name="service">Service</string>
+    <string name="fuel_mileage"><![CDATA[Fuel & Mileage]]></string>
+</resources>

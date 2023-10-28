@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/__home_copy"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Repair.repairs">
+
+    <TextView
+        android:id="@+id/vehicalReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Vehicle Repair"
+        android:textAlignment="center"
+        android:textColor="#FF5800"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spVehiNum"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:autofillHints="Ex: CAT 2203">
+
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/edtRepairtype"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Repair Type"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtRepairDes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Discription"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtRepaircost"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Cost"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtdate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Date"
+        android:minHeight="48dp" />
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        tools:context="repairAdd">
+
+
+        <Button
+            android:id="@+id/btnRepairAdd"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FF5800"
+            android:text="Add Repair" />
+
+        <Button
+            android:id="@+id/btnrepairView"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FF5800"
+            android:text="View Repair" />
+
+    </LinearLayout>
+</LinearLayout>

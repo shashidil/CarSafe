@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/__home_2"
+    android:orientation="vertical"
+    tools:context=".MaintainDashboard">
+
+
+        <Button
+            android:id="@+id/btnRepair"
+            android:layout_width="300dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="460dp"
+            android:backgroundTint="#FF5800"
+            android:text="@string/repair"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnservice"
+            android:layout_width="300dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="55dp"
+            android:backgroundTint="#FF5800"
+            android:text="@string/service"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMileage"
+            android:layout_width="300dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="55dp"
+            android:backgroundTint="#FF5800"
+            android:text="refueling"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+</LinearLayout>
